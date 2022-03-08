@@ -21,7 +21,7 @@ $(NAME_CLIENT): $(OBJS_CLIENT)
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
-# bonus:
+# bonus: all
 
 clean:
 	rm -rf $(OBJS_SERVER) $(OBJS_CLIENT)
@@ -31,4 +31,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re bonus

@@ -7,6 +7,5 @@
 
 void	ft_putnbr(int n);
 
-void	ft_print_pid(int pid, int flag);
 
 #endif
